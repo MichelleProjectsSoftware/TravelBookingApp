@@ -1,1 +1,2 @@
-# TravelBookingApp
+<h1>Travel Booking Platform with .NET and C#<h1>
+<p>Created a custom platform with features like user authentication, role management, new trip booking, and admin search. This project involved building both the front-end user interface, the back-end server infrastructure, and the database connection and management.</p>
