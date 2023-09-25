@@ -1,0 +1,43 @@
+﻿@model IList<BookingDetail>
+
+@{
+    ViewData["Title"] = "List of Booking Details";
+}
+
+<div class="text-white text-center bg-primary">
+    <h3>Booked Trips</h3>
+</div>
+<table class="table table-borderless table-striped table-responsive">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Description</th>
+            <th>Destination</th>
+            <th>Trip Start</th>
+            <th>Trip End</th>
+            <th>Itinerary No</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var bookingDetails in Model)
+        {
+            <tr>
+                <td>@bookingDetails.BookingDetailId</td>
+                <td>@bookingDetails.Description</td>
+                <td>@bookingDetails.Destination</td>
+                <td>@bookingDetails.TripStart.Value.ToString("yyyy-MM-dd")</td>
+                <td>@bookingDetails.TripEnd.Value.ToString("yyyy-MM-dd")</td>
+                <td>@bookingDetails.ItineraryNo</td>
+                <td>
+                    <a asp-controller="" asp-action="" asp-route-id="">View</a>
+                    <a asp-controller="" asp-action="" asp-route-id="">Edit</a>
+                    <a href="#">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-controller="BookingDetail" asp-action="BookNew" class="btn btn-primary mt=15">Book New Trips</a>
+

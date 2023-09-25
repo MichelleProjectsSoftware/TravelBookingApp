@@ -1,0 +1,40 @@
+﻿@model IList<Agent>
+
+@{
+    ViewData["Title"] = "List of Agents";
+}
+<div class="text-white text-center bg-primary">
+    <h3>Agent List</h3>
+</div>
+<table class="table table-borderless table-striped table-responsive">
+    <thead>
+        <tr>
+            <th>Agent ID</th>
+            <th>Agent First Name</th>
+            <th>Agent Last Name</th>
+            <th>Agent Bus Phone</th>
+            <th>Agent Email</th>
+            <th>Agent Position</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var agent in Model)
+        {
+            <tr>
+                <td>@agent.AgentId</td>
+                <td>@agent.AgtFirstName</td>
+                <td>@agent.AgtLastName</td>
+                <td>@agent.AgtBusPhone</td>
+                <td>@agent.AgtEmail</td>
+                <td>@agent.AgtPosition</td>
+                <td>
+                    <a asp-controller="" asp-action="" asp-route-id="">View</a>
+                    <a asp-controller="" asp-action="" asp-route-id="">Edit</a>
+                    <a href="#">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

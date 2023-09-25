@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Travel_Experts_Application.Web.props" />
+</Project>

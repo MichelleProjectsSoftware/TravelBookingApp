@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Travel_Experts_Application.Web
+build_property.RootNamespace = Travel_Experts_Application.Web
+build_property.ProjectDir = C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Web\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Account/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Account/EditUserRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0VXNlclJvbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Administration/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Administration/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/AdminSearch/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5TZWFyY2hcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Agent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/BookingDetail/BookingById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0RldGFpbFxCb29raW5nQnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/BookingDetail/BookNew.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0RldGFpbFxCb29rTmV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/BookingDetail/ThankYou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0RldGFpbFxUaGFua1lvdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Package/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Shared/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miche/Documents/sait_full_stack/course_g/Travel_Experts_Application/Travel_Experts_Application.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4zlys6v27h

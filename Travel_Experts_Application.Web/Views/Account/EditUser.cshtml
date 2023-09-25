@@ -1,0 +1,60 @@
+﻿@model EditUserViewModel
+
+@{
+    ViewData["Title"] = "Edit User";
+}
+
+<h3 class="text-center">Editing User - @Model.UserName</h3>
+
+<form method="post" asp-controller="Account" asp-action="EditUser">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <input asp-for="Id" hidden />
+
+    <div class="row mt-3 mb-3">
+        <label asp-for="UserName" class="col-form-label col-md-2"></label>
+        <div class="col-md-6">
+            <input asp-for="UserName" class="form-control" />
+            <span asp-validation-for="UserName" class="text-danger"> </span>
+        </div>
+    </div>
+
+
+    <div class="row mb-3">
+        <button type="submit" class="btn btn-primary col-md-2 me-2">Edit</button>
+        <a asp-controller="Account" asp-action="Index" class="btn btn-secondary col-md-2">Cancel</a>
+    </div>
+
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h3>User Roles</h3>
+        </div>
+
+        <div class="card-body">
+            @if (Model.Roles.Any())
+            {
+                foreach (var role in Model.Roles)
+                {
+                    <h3 class="lead">@role</h3>
+                }
+            }
+            else
+            {
+                <h5 class="lead">This user does not belong to any roles</h5>
+            }
+        </div>
+
+        <div class="card-footer text-center">
+            <a asp-controller="Account" asp-action="EditUserRoles" asp-route-userid="@Model.Id" class="btn btn-primary col-md-2">Add or Remove Roles</a>
+        </div>
+
+    </div>
+    @section Scripts{
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+
+
+
+
+</form>

@@ -1,0 +1,61 @@
+﻿@model IList<IdentityUser>
+
+@{
+    ViewData["Title"] = "User List";
+}
+
+<style>
+    .btn {
+        width: 100px;
+    }
+</style>
+
+<a asp-controller="Account" asp-action="Register" class="btn btn-primary mb-3" style="width:auto">Add New User</a>
+
+<div class="card">
+
+    <div class="card-header bg-primary text-white text-center">
+        <h3>List of Users</h3>
+    </div>
+
+    <div class="card-body">
+
+        <table class="table table-responsive table-boderless table-striped">
+
+            <thead>
+                <tr>
+                    <th>User Name</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <form method="post" asp-controller="Account" asp-action="Delete" asp-route-id="@user.Id">
+                        <td>@user.UserName</td>
+                        <td>
+                            <a asp-controller="Account" asp-action="EditUser" asp-route-id="@user.Id" class="btn1 btn btn-primary">Edit</a>
+                            <span id="deleteSpan_@user.Id" class="collapse">
+                                <span class="text-danger fw-bold">Are you sure you want to delete @user.UserName?</span>
+                                <a href="#" class="btn1 btn btn-primary me-1" onclick="confirmDelete('@user.Id', true)">No</a>
+                                <button type="submit" class="btn1 btn btn-danger">Yes</button>
+                            </span>
+                            <span id="confirmDelete_@user.Id">
+                                <a href="#" class="btn1 btn btn-danger" onclick="confirmDelete('@user.Id', false)">Delete</a>
+                            </span>
+                        </td>
+                        </form>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/CustomScripts.js"></script>
+}

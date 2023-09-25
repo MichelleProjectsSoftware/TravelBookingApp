@@ -1,0 +1,17 @@
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\bin\Debug\net7.0\Travel_Experts_Application.Data.deps.json
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\bin\Debug\net7.0\Travel_Experts_Application.Data.runtimeconfig.json
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\bin\Debug\net7.0\Travel_Experts_Application.Data.dll
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\bin\Debug\net7.0\Travel_Experts_Application.Data.pdb
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\bin\Debug\net7.0\Travel_Experts_Application.Lib.dll
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\bin\Debug\net7.0\Travel_Experts_Application.Lib.pdb
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\obj\Debug\net7.0\Travel_Experts_Application.Data.csproj.AssemblyReference.cache
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\obj\Debug\net7.0\Travel_Experts_Application.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\obj\Debug\net7.0\Travel_Experts_Application.Data.AssemblyInfoInputs.cache
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\obj\Debug\net7.0\Travel_Experts_Application.Data.AssemblyInfo.cs
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\obj\Debug\net7.0\Travel_Experts_Application.Data.csproj.CoreCompileInputs.cache
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\obj\Debug\net7.0\Travel_Experts_Application.Data.csproj.CopyComplete
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\obj\Debug\net7.0\Travel_Experts_Application.Data.dll
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\obj\Debug\net7.0\refint\Travel_Experts_Application.Data.dll
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\obj\Debug\net7.0\Travel_Experts_Application.Data.pdb
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\obj\Debug\net7.0\Travel_Experts_Application.Data.genruntimeconfig.cache
+C:\Users\miche\Documents\sait_full_stack\course_g\Travel_Experts_Application\Travel_Experts_Application.Data\obj\Debug\net7.0\ref\Travel_Experts_Application.Data.dll

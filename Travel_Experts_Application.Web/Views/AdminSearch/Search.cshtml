@@ -1,0 +1,81 @@
+﻿@model IList<BookingSearchViewModel>
+
+@{
+    ViewData["Title"] = "Booking Searches";
+}
+
+<div class="container mt-5">
+    <div class="text-white text-center bg-primary">
+        <h3>Client Trip Search</h3>
+    </div>
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="mt-5">
+            <form method="get" asp-controller="AdminSearch" asp-action="Search">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="customerId" class="col-form-label">Customer ID</label>
+                            </div>
+                            <div class="col-md-6">
+                                <input id="customerId" name="customerId" class="form-control" value="@Model.FirstOrDefault()?.CustomerId" />
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="tripStart" class="col-form-label">Trip Start</label>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="date" class="form-control" name="tripStart" id="tripStart" value="@Model.FirstOrDefault()?.TripStart?.ToString("yyyy-MM-dd")" />
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="tripEnd" class="col-form-label">Trip End</label>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="date" class="form-control" name="tripEnd" id="tripEnd" value="@Model.FirstOrDefault()?.TripEnd?.ToString("yyyy-MM-dd")" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <button type="submit" class="btn btn-primary text-white">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<table class="table table-borderless table-striped table-responsive">
+    <thead>
+        <tr>
+            <th>Customer Id</th>
+            <th>Description</th>
+            <th>Destination</th>
+            <th>Trip Start</th>
+            <th>Trip End</th>
+            <th>Itinerary No</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var bookingDetails in Model)
+        {
+            <tr>
+                <td>@bookingDetails.CustomerId</td>
+                <td>@bookingDetails.Description</td>
+                <td>@bookingDetails.Destination</td>
+                <td>@bookingDetails.TripStart?.ToString("yyyy-MM-dd")</td>
+                <td>@bookingDetails.TripEnd?.ToString("yyyy-MM-dd")</td>
+                <td>@bookingDetails.ItineraryNo</td>
+                <td>
+                    <a asp-controller="" asp-action="" asp-route-id="">View</a>
+                    <a asp-controller="" asp-action="" asp-route-id="">Edit</a>
+                    <a href="#">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

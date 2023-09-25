@@ -1,0 +1,31 @@
+﻿@model IList<Package>
+
+@{
+    ViewData["Title"] = "List of Packages";
+}
+
+<div class="text-white text-center bg-primary">
+    <h3>Exclusive Trips</h3>
+</div>
+
+<div class="row mt-lg-5">
+    @foreach (var package in Model)
+    {
+        <div class="col-md-6">
+            <div class="card mb-4">
+                @if (!string.IsNullOrEmpty(package.PkgName))
+                {
+                    var imageName = package.PkgName + ".jpg";
+                    <img src="~/images/@imageName" asp-append-version="true" height="300" alt="@package.PkgName" />
+                }
+                <div class="card-body">
+                    <h5 class="card-title">@package.PkgName</h5>
+                    <p class="card-text">Start Date: @package.PkgStartDate</p>
+                    <p class="card-text">End Date: @package.PkgEndDate</p>
+                    <p class="card-text">@package.PkgDesc</p>
+                    <p class="card-text">Price: $@package.PkgBasePrice</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

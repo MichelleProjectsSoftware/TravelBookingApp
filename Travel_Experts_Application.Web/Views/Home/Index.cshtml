@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4 mt-10">Welcome to Travel Experts</h1>
+    <div class="container mt-10">
+        <img id="slideshow" height="350" width="700" />
+    </div>
+</div>
+
+<script>
+    var images = ["welcome1.jpg", "welcome2.jpg", "welcome3.jpg"];
+    var currentIndex = 0;
+    var slideshowElement = document.getElementById("slideshow");
+
+    function changeImage() {
+        var imagePath = "/images_home/" + images[currentIndex]; // Use the correct path
+        slideshowElement.src = imagePath;
+        currentIndex = (currentIndex + 1) % images.length;
+    }
+
+    setInterval(changeImage, 3000); // Change image every 3 seconds
+    changeImage(); // Display the first image immediately
+</script>
